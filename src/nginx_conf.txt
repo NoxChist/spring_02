@@ -1,0 +1,8 @@
+location / {
+            proxy_pass http://localhost:8080;
+        }
+
+location /signin  {
+            root   html;
+	    index  form.html;
+        }
