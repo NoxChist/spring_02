@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netoapp:
+    build: ./
+    container_name: "app1"
+    ports:
+      - "8080:8080"
